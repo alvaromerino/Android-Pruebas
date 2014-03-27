@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+    <LinearLayout android:orientation="vertical"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="center">
+
+        <TextView android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:text="NUEVA PERSONA"
+                  android:textSize="@dimen/font_size_titulo"
+                  android:gravity="center"/>
+
+        <TextView android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:padding="10dp"
+                  android:textSize="@dimen/font_size"
+                  android:text="Dni:"/>
+
+        <EditText android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:hint="Ingresa tu dni aquí..."
+                  android:id="@+id/editTextDni"/>
+
+        <TextView android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:padding="10dp"
+                  android:textSize="@dimen/font_size"
+                  android:text="Nombre:"/>
+
+        <EditText android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:hint="Ingresa tu nombre aquí..."
+                  android:id="@+id/editTextNombre"/>
+
+        <TextView android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:padding="10dp"
+                  android:textSize="@dimen/font_size"
+                  android:text="Primer Apellido:"/>
+
+        <EditText android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:hint="Ingresa tu primer apellido aquí..."
+                  android:id="@+id/editTextApellido1"/>
+
+        <TextView android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:padding="10dp"
+                  android:textSize="@dimen/font_size"
+                  android:text="Segundo Apellido:"/>
+
+        <EditText android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:hint="Ingresa tu segundo apellido aquí..."
+                  android:id="@+id/editTextApellido2"/>
+
+        <TextView android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:padding="10dp"
+                  android:textSize="@dimen/font_size"
+                  android:text="Edad:"/>
+
+        <EditText android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:hint="Ingresa tu edad aquí..."
+                  android:inputType="number"
+                  android:id="@+id/editTextEdad"/>
+
+        <Button android:layout_width="@dimen/btn_menu_width"
+                android:layout_height="@dimen/btn_menu_height"
+                android:text="Dar de Alta"
+                android:layout_gravity="center"
+                android:layout_margin="20dp"
+                android:textSize="@dimen/font_size"
+                android:id="@+id/btnDarDeAlta"/>
+
+    </LinearLayout>
+</ScrollView>
