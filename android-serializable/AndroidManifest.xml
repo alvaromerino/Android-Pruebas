@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.alvaro93mg.android.serializable">
+    <uses-sdk android:minSdkVersion="14" android:targetSdkVersion="19"/>
+    <application android:icon="@drawable/icon" android:label="@string/app_name">
+        <activity android:name=".activities.MainActivity" android:label="Ejemplo Serializable">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".activities.ListadoPersonasActivity" android:label="Listado Personas"/>
+        <activity android:name=".activities.FormularioActivity" android:label="Nueva Persona"/>
+        <activity android:name=".activities.PersonaDetallesActivity" android:label="Datos de la Persona"/>
+    </application>
+</manifest>
