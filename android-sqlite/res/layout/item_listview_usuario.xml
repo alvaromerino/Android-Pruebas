@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="5dp" >
+    
+    <TextView 
+        android:id="@+id/textviewItemUsuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"/>
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="right"
+        android:gravity="right" >
+    
+        <ImageButton 
+            android:id="@+id/btnVerDetalle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ver_detalle"
+            android:onClick="verDetalle"
+            style="?android:attr/borderlessButtonStyle" /> 
+            
+        <ImageButton 
+            android:id="@+id/btnActualizar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/actualizar"
+            android:onClick="actualizar"
+            style="?android:attr/borderlessButtonStyle" />  
+            
+        <ImageButton 
+            android:id="@+id/btnEliminar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/borrar"
+            android:onClick="eliminar"
+            style="?android:attr/borderlessButtonStyle" />
+        
+	</LinearLayout>
+	
+</LinearLayout>

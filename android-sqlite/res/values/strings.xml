@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">android-SQLite</string>
+    <string name="action_nuevo">Nuevo Usuario</string>
+    <string name="action_buscar">Buscar Usuario</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_form_nuevo_y_actualizar_usuario">FormNuevoUsuarioActivity</string>
+    <string name="title_activity_usuario_detalles">UsuarioDetallesActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="nuevo_usuario">NUEVO USUARIO</string>
+    <string name="actualizar_usuario">ACTUALIZAR USUARIO</string>
+    <string name="usuario">Usuario:</string>
+    <string name="password">Password:</string>
+    <string name="edittextUsuario">Introduce el username aquí...</string>
+    <string name="edittextPassword">Introduce la password aquí...</string>
+    <string name="tituloUsuarioDetalles">DETALLES DEL USUARIO</string>
+    <string name="btnActualizarUsuario">Actualizar Usuario</string>
+    <string name="btnDarDeAltaUsuario">Dar de Alta Usuario</string>
+    <string name="search_hint">Busca usuarios</string>
+
+</resources>
