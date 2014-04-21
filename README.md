@@ -1,4 +1,4 @@
-Android-pruebas
+Android-Pruebas
 ===============
 
-Aquí irán los proyectos de pruebas sobre Android
+Repositorio dedicado a pruebas en Android (componentes, utilidades, etc)
